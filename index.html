@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Piyush Tongya
+	</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+	
+<body>
+	
+	<div class="drop">
+        <div class="drop_container" id="drop-items">
+              <img src="https://images.unsplash.com/photo-1511385348-a52b4a160dc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="img1" class="drop_img">
+      
+              <img src="https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="img1" class="drop_img">
+      
+              <img src="https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="img1" class="drop_img">
+      
+              <img src="https://images.unsplash.com/photo-1555117391-6c0795768da8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="img1" class="drop_img">
+
+              <img src="https://images.unsplash.com/photo-1445620466293-d6316372ab59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwxMDM5MzExfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="img1" class="drop_img">
+
+              <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8MTAzOTMxMXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="img1" class="drop_img">
+        </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script>
+        const dropItems = document.getElementById('drop-items')
+
+        new Sortable(dropItems, {
+            animation: 350,
+            chosenClass: "sortable-chosen",
+            dragClass: "sortable-drag"
+        });
+    </script>
+</body>
+
+</html>
